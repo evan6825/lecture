@@ -26,6 +26,6 @@ roomName = data.roomName;
 });
 socket.on('reqMsg', function (data) {
 console.log(data);
-io.sockets.in(roomName).emit('recMsg', {comment: Id + " : " + data.comment+'\n'});
+io.sockets.in(roomName).emit('recMsg', {comment: instanceId+ " : " + data.comment+'\n'});
 })
 });
