@@ -195,10 +195,10 @@ function getVolumeAfterBuy(market, price){
   //price 만큼 사고나면 얼마의 volume을 얻게 되는지.
   //살 수 있는 가격은 판매되고 있는 가격이다.
   ask_price = _MARKETS_STATUS[market].ask_price; // 1볼륨당 가격.
-  tradeUnit = getTradeUnitKRW(ask_price); 
-  if(price % tradeUnit !=0){
-    return 0 //가격 단위 안 맞음.
-  } 
+  // tradeUnit = getTradeUnitKRW(ask_price); 
+  // if(price % tradeUnit !=0){
+  //   return 0 //가격 단위 안 맞음.
+  // } 
   volume =  parseFloat(price) / parseFloat(ask_price)
   return volume;
 }

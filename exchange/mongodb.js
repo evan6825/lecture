@@ -189,6 +189,12 @@ async function addAccount(accessKey, balance){
                 balance:"2.0",
                 avg_buy_price:"101000",
                 timestamp:new Date().toLocaleString('en', {timeZone: "Asia/Seoul"})
+            },
+            {
+                currency:"ETH",
+                balance:"0.0",
+                avg_buy_price:"0",
+                timestamp:new Date().toLocaleString('en', {timeZone: "Asia/Seoul"})
             }
         ]
         // accounts: {
