@@ -5,8 +5,8 @@ const crypto = require('crypto')
 const queryEncode = require("querystring").encode
 const WebSocket = require('ws')
 
-const access_key = "TEST_ACCESSKEY"
-const secret_key = "7wM2afJ3WQNap91cOGEe9sLeZvj0vItaOH0D5fjK4M8="
+const access_key = "TEST_ACCESSKEY3"
+const secret_key = "oiTYER2INgLTjbXkiKs4a1+Tjda/3O45qz1jTj61fHs="
 const server_url = "http://127.0.0.1"
 let _MARKETS_STATUS = {}; //가격 정보들을 저장
 let _MY_BALANCE = {}; //blance값을 json으로 저장
@@ -162,7 +162,7 @@ async function getBalance(){ //
 }
 
 //얼마너치살건지
-async function API_buyImmediate(market, price){  // 구매할 토큰 / 가격이 입력되어야함
+async function API_buyImmediate(market,price){  // 구매할 토큰 / 가격이 입력되어야함
     const body = { //바디라는 객체에 코인,side? , 량,
         market: market, //사이트에서 받아오는 코인이름
         side: 'bid', //주문종류
@@ -259,7 +259,7 @@ async function getCandlesWHILE(){
 }
 
 async function main(){
-    getCandlesWHILE();
+    // getCandlesWHILE();
     while(true){
         ////////////변동성돌파///////
 
@@ -267,14 +267,14 @@ async function main(){
         // console.log(ret) // ret안에 정보를 찍어볼수 있다.
         retJSON = JSON.parse(ret); //ret 안에 정보값을 JSON파일로 변경하여 키 와 값으로 저장
         // console.log(retJSON)
-        balance = await getBalance()
+        balance = await getBalance()  //get balnce
         for (var i in retJSON){ //for문을 통해서 retJSON[i] 배열안에 .rsiSignal 값을 rsiSignal에 저장
             market = i ;
             rsiSignal = retJSON[i].rsiSignal;
             //console.log(rsiSignal) // rsiSingal에 제대로 들어갔는지 확인
-            if (rsiSignal == "LONG" || rsiSignal == "BIGLONG"){ //rsiSignal의 값이 long이나 biglong인 애들만 갑을 저장
+            if (rsiSignal == "SHORT" || rsiSignal == "LONG"){ //rsiSignal의 값이 long이나 biglong인 애들만 갑을 저장
                 // console.log("!!!!BUY!!!! MARKET : "+ market);
-                body = await API_buyImmediate(market, 50000); //(market : 코인 , 얼마치 구매를할지)
+                body = await API_buyImmediate(market,50000); //(market : 코인 , 얼마치 구매를할지)
                 if(typeof volume[market] == "undefined"){ //구매된 코인의 개수가 증가할때 
                     volume[market] = body.volume;
                     console.log(market+"이(가)"+body.volume+"개 구매되었습니다.")

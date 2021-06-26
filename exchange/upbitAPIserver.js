@@ -45,6 +45,7 @@ async function init(){
    }
    await database.init();
    _LOCAL_ALL_ACCOUNTS = database.getSavedAccounts();
+   console.log(_LOCAL_ALL_ACCOUNTS) //이거는 데이타 불러오는거
    /*
 {
   TEST_ACCESSKEY3: {
@@ -102,7 +103,7 @@ app.use(bodyParser.json());
 app.get('/v1/accounts',(req,res)=>{
     let retJSON = verifyJWT(req)
     let access_key = retJSON.accessKey
-    console.log("[Server] /v1/accounts : "+access_key)
+    // console.log("get으로 들어옵니다 [Server] /v1/accounts : "+access_key)
     if(retJSON.result){
       res.statusCode = 200;
       res.send(_LOCAL_ALL_ACCOUNTS[access_key].accounts)
@@ -116,7 +117,7 @@ app.get('/v1/accounts',(req,res)=>{
 
 app.post('/v1/orders',(req,res)=>{
   let retJSON = verifyJWT(req)
-  console.log("[Server] /v1/accounts : "+retJSON.accessKey)
+  console.log("post로 들어옵니다. [Server] /v1/accounts : "+retJSON.accessKey)
   if(retJSON.result){
      ret = order(req, retJSON.accessKey)
      if(ret.result){
@@ -124,25 +125,28 @@ app.post('/v1/orders',(req,res)=>{
      } else {
       res.statusCode = 400;   
       res.send({error:{"message" : ret.message, "name":"virtualUpbitServer"}})
+      // console.log("2")
      }
   } else {
     res.statusCode = 401;
+    // console.log("3")
     message = "잘못된 엑세스 키입니다."
     // database.saveErrorLog(access_key, message)
     res.send({error:{"message" : message, "name":"invalid_access_key"}})
   }
 })
 
-function order(req, access_Key){
+function order(req, access_Key){ //주문할때 이게 사용됌
   try{
     let market = req.body.market
     let ord_type = req.body.ord_type
-    let price = parseFloat(req.body.price)
+    let price = parseFloat(req.body.price) //frice는 잘 작동된다.
     let side = req.body.side
-    let volume = parseFloat(req.body.volume)
+    let volume = parseFloat(req.body.volume) //volume이 지금 안찍히는중
+    console.log("이거는?"+price)
     if(!marketValidation(market)) return {result:false, message:"Fail : marketValidation : "+market};
     if(!valueCheck([price, volume])) return {result:false, message:"Fail : price/volume Value Check"};
-    return sellOrBuy(market, side, ord_type, price, volume, access_Key);
+    return sellOrBuy(market, side, ord_type, price, volume, access_Key);//sellOrbuy로 날라간다
   } catch(E){
     console.log(E);
     return {result:false, message:"Fail : Internal Server Error"};
@@ -201,6 +205,7 @@ function getVolumeAfterBuy(market, price){
   // } 
   volume =  parseFloat(price) / parseFloat(ask_price)
   return volume;
+  
 }
 
 function getPriceAfterSell(market, volume){
@@ -213,7 +218,7 @@ function getPriceAfterSell(market, volume){
   return price;
 }
 
-function sellOrBuy(market, side, ord_type, price, volume, access_key){
+function sellOrBuy(market, side, ord_type, price, volume, access_key){//order에서 여기로와서 구매가 된다.
   if(side == 'bid' && ord_type == "price"){
     //balance : 내가 사고나면 남는 돈.
     balance = getBalanceAfterBuy(price, access_key);

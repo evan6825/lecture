@@ -1,0 +1,510 @@
+
+currency : KRW-BTC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ETH 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-NEO 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MTL 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-LTC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-XRP 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ETC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-OMG 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SNT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-WAVES 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-XEM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-QTUM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-LSK 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STEEM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-XLM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ARDR 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ARK 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STORJ 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-GRS 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-REP 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ADA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SBD 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-POWR 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BTG 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ICX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-EOS 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-TRX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ONT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ZIL 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-POLY 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ZRX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-LOOM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BCH 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BAT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-IOST 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-RFR 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-CVC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-IQ 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-IOTA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MFT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ONG 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-GAS 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-UPP 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ELF 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-KNC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BSV 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-THETA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-QKC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BTT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MOC 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ENJ 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-TFUEL 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MANA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ANKR 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-AERGO 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ATOM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-TT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-CRE 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MBL 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-WAXP 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-HBAR 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MED 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MLK 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STPT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-ORBS 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-VET 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-CHZ 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STMX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-DKA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-HIVE 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-KAVA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-AHT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-LINK 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-XTZ 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BORA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-JST 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-CRO 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-TON 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SXP 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-HUNT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-PLA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-DOT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SRM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-MVL 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STRAX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-AQT 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-BCHA 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-GLM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SSX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-META 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-FCT2 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-CBK 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-SAND 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-HUM 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-DOGE 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STRK 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-PUNDIX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-FLOW 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-DAWN 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-AXS 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
+
+currency : KRW-STX 
+ balance : 0.0 
+ avg_buy_price : 0 
+ 2021-06-26 16:54:40.774067
