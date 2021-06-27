@@ -17,6 +17,7 @@
     "json": "^11.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.14",
+    "node-fetch": "^2.6.1",
     "querystring": "^0.2.1",
     "request": "^2.88.2",
     "socketio": "^1.0.0",

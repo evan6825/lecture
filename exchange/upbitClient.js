@@ -6,7 +6,7 @@ const queryEncode = require("querystring").encode
 const WebSocket = require('ws')
 
 const access_key = "TEST_ACCESSKEY3"
-const secret_key = "oiTYER2INgLTjbXkiKs4a1+Tjda/3O45qz1jTj61fHs="
+const secret_key = "TEST_SECRET_KET"
 const server_url = "http://127.0.0.1"
 let _MARKETS_STATUS = {}; //가격 정보들을 저장
 let _MY_BALANCE = {}; //blance값을 json으로 저장
@@ -231,7 +231,7 @@ async function API_sellImmediate(market, volume){
 
 
 async function get_candles(market){
-    url = 'https://api.upbit.com/v1/candles/minutes/240?market='+market+'&count=10';
+    url = 'https://api.upbit.com/v1/candles/minutes/240?market='+market+'&count=2';
     candles = await get(url)
     return JSON.parse(candles);
 }
@@ -245,19 +245,19 @@ async function get(url){
         })
     });
 }
-volume = {}
-
 async function getCandlesWHILE(){
     while(true){
         for(var i in _CANDLES_MARKETS){
-            await sleep(300)
-            _CANDLES[_CANDLES_MARKETS[i]] = await get_candles(_CANDLES_MARKETS[i])
+            // await sleep(300)
+            _CANDLES[i] = await get_candles(_CANDLES_MARKETS[i])
             console.log(_CANDLES)
         }
         await sleep(1000 * 60 * 10)
     }
 }
+getCandlesWHILE()
 
+volume = {}
 async function main(){
     // getCandlesWHILE();
     while(true){
@@ -359,4 +359,4 @@ function orderbookWS(markets){
     })
 }
 
-init()
+// init()
