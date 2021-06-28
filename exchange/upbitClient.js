@@ -5,9 +5,9 @@ const crypto = require('crypto')
 const queryEncode = require("querystring").encode
 const WebSocket = require('ws')
 
-const access_key = "TEST_ACCESSKEY3"
+const access_key = "testevan6825"
 const secret_key = "TEST_SECRET_KET"
-const server_url = "http://127.0.0.1"
+const server_url = 'http://ubuntu.securekim.com'
 let _MARKETS_STATUS = {}; //가격 정보들을 저장
 let _MY_BALANCE = {}; //blance값을 json으로 저장
 let _CANDLES = {} //_MARKETS 에 들어가있는 코인들의 차트정보를 CANDLES에 저장
@@ -283,7 +283,7 @@ async function main(){
                     console.log(market+"이(가)"+body.volume+"개 구매되어서. 총"+volume[market]+"개가 구매되었습니다.")
                 }
             }
-            else if (rsiSignal == "SHORT" || rsiSignal == "BIGSHORT"){ //판매하는식
+            else if (rsiSignal == "SHORT" || rsiSignal == "LONG"){ //판매하는식
                 let volume;
                     for(var i in balance){
                         if("KRW-" + balance[i].currency == market){
@@ -359,4 +359,4 @@ function orderbookWS(markets){
     })
 }
 
-// init()
+init()
